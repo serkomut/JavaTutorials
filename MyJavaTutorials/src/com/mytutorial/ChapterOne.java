@@ -25,4 +25,12 @@ public class ChapterOne {
             System.out.println("Order : " + item);
         }
     }
+
+    public void StringAray(){
+        String[] list = new String[]{"Elma", "Armut", "Kel", "Mahmut"};
+
+        for (String item : list){
+            System.out.println("Row : " + item);
+        }
+    }
 }
